@@ -1,0 +1,27 @@
+@media screen and (max-width: 480px) {
+  .layout-content,
+  .layout-sidebar-second,
+  .region-footer {
+    width: 80% !important;
+    padding: 0px 20px;
+  }
+
+  .views-row {
+    display: flex;
+    flex-basis: 100% !important;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .layout-content,
+  .layout-sidebar-second,
+  .region-footer {
+    width: 90% !important;
+    padding: 0px 20px;
+  }
+
+  .views-row {
+    display: flex;
+    flex-basis: 46% !important;
+  }
+}

@@ -1,0 +1,36 @@
+@import "vars";
+@import "header";
+@import "content";
+@import "footer";
+@import "mobile";
+
+body {
+  color: $mainColor;
+}
+
+p,
+h1,
+h2 {
+  font-family: "Playfair Display", serif;
+}
+
+p {
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.2s linear;
+  &:hover {
+    color: #625f5f !important;
+  }
+}
+
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap");
+
+/*general header/footer*/
+.region-header,
+.region-footer {
+  width: 80%;
+  margin: 0 auto;
+}

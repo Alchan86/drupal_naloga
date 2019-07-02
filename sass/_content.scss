@@ -1,0 +1,68 @@
+@import "vars";
+
+/*first article title & before*/
+.field--name-body h2 {
+  font-size: 30px;
+}
+.field--name-body h2::before {
+  display: block;
+  content: "";
+  border-top: 0.3rem solid $mainColor;
+  width: 6rem;
+  margin-bottom: -5px;
+  transform: translateY(-1rem);
+}
+
+.layout-content,
+.layout-sidebar-second {
+  width: 70% !important;
+  margin: 0 auto;
+  padding-top: 160px;
+}
+.view-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.views-row {
+  display: flex;
+  flex-basis: 46% !important;
+  text-align: left;
+  width: 100% !important;
+}
+
+.views-row img.image-style-large {
+  width: 100% !important;
+  min-height: 300px;
+  max-height: 300px;
+}
+
+.field .field--name-field-tags {
+  text-transform: uppercase;
+}
+
+h2 a span.field--name-title {
+  text-decoration: none !important;
+  color: $mainColor;
+  font-size: 30px;
+}
+
+.field--name-field-tags {
+  padding-top: 15px;
+  color: $metaColor;
+  text-transform: uppercase;
+}
+
+/*single article pic & caption*/
+figure {
+  margin: 0px;
+}
+.caption > * {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+}
