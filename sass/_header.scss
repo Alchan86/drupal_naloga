@@ -47,19 +47,19 @@ nav.block-menu.menu--main.sticky {
   padding-top: 15px;
 }
 
-ul.menu {
+.region-header nav ul.menu {
   list-style: none;
   margin: 0 auto;
   float: right;
 }
 
-ul.menu li {
+.region-header nav ul.menu li {
   float: left;
   padding: 10px 0px 10px 100px;
   text-transform: uppercase;
 }
 
-ul.menu li a {
+.region-header ul.menu li a {
   color: $mainColor;
 }
 

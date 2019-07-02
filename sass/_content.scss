@@ -9,8 +9,8 @@ h1.page-title,
 .field--name-body h2 {
   font-size: 30px;
 }
-h1.page-title::before,
-.field--name-body h2::before {
+/*h1.page-title:before,*/
+.field--name-body h2:before {
   display: block;
   content: "";
   border-top: 0.3rem solid $mainColor;

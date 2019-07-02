@@ -3,8 +3,32 @@
 /*footer*/
 footer {
   background: $footerCOlor;
+  margin-top: 80px;
 }
 
 .region-footer {
   padding: 20px;
+  min-height: 50px;
+}
+
+.region-footer ul.menu {
+  float: left !important;
+}
+
+.region-footer ul.menu li {
+  float: left;
+  padding-right: 30px;
+}
+
+.region-footer ul.menu li a {
+  color: black;
+}
+
+#block-footercreated {
+  float: right;
+  width: auto;
+}
+
+#block-footercreated p a {
+  color: $mainColor;
 }

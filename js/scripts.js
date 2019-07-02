@@ -13,7 +13,10 @@ $(window).on("scroll", function() {
 });
 
 $(document).ready(function() {
-  if (window.location.href.indexOf("news") >= 0) {
+  if (
+    window.location.href.indexOf("news") >= 0 ||
+    window.location.href.indexOf("about-me") >= 0
+  ) {
     $(".layout-content").addClass("post-content-70");
     $(".layout-sidebar-second").addClass("sidebar-content-30");
   }

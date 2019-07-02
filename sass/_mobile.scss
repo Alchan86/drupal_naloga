@@ -1,11 +1,32 @@
 @media screen and (max-width: 480px) {
+  /*header*/
+  header {
+    padding: 30px 5px;
+  }
+  /*logo*/
+  .region-header a.site-logo img {
+    margin-left: 2px;
+  }
+  .region-header a.site-logo img.sticky {
+    padding: 0px;
+  }
+  /*nav*/
+  .region-header nav ul.menu {
+    float: none;
+  }
+  .region-header nav ul.menu li {
+    float: left;
+    padding: 35px 10px 10px 0px;
+  }
+
+  /*content*/
   .layout-width,
   .region-footer {
     width: 80% !important;
     padding: 0px 20px;
   }
   .layout-width {
-    padding-top: 160px;
+    padding-top: 120px;
     display: block;
   }
 
@@ -22,9 +43,42 @@
   .region-sidebar-second {
     padding: 0px !important;
   }
+
+  /*footer*/
+  .region-footer {
+    margin-top: 30px;
+    min-height: 120px;
+  }
+  #block-footercreated,
+  .region-footer ul.menu {
+    float: auto;
+    width: 100%;
+    margin-left: 0px;
+  }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 1024px) {
+  /*header*/
+  header {
+    padding: 30px 5px;
+  }
+  /*logo*/
+  .region-header a.site-logo img {
+    margin-left: 2px;
+  }
+  .region-header a.site-logo img.sticky {
+    padding: 0px;
+  }
+  /*nav*/
+  .region-header nav ul.menu {
+    float: right;
+  }
+  .region-header nav ul.menu li {
+    float: left;
+    padding: 5px 10px 10px 0px;
+  }
+
+  /*Content*/
   .layout-width,
   .region-footer {
     width: 90% !important;
@@ -32,7 +86,7 @@
   }
 
   .layout-width {
-    padding-top: 160px;
+    padding-top: 120px;
     display: block;
   }
 
