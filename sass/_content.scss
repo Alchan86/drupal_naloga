@@ -1,9 +1,15 @@
 @import "vars";
 
-/*first article title & before*/
+/*article title & before*/
+h1.page-title {
+  margin-bottom: 0px;
+}
+
+h1.page-title,
 .field--name-body h2 {
   font-size: 30px;
 }
+h1.page-title::before,
 .field--name-body h2::before {
   display: block;
   content: "";
@@ -13,12 +19,13 @@
   transform: translateY(-1rem);
 }
 
-.layout-content,
-.layout-sidebar-second {
-  width: 70% !important;
+.layout-width {
+  width: 70%;
   margin: 0 auto;
   padding-top: 160px;
+  display: flex;
 }
+
 .view-content {
   display: flex;
   flex-direction: row;
@@ -56,7 +63,22 @@ h2 a span.field--name-title {
   text-transform: uppercase;
 }
 
+/*news*/
+
+/*custom js classes*/
+.post-content-70 {
+  width: 70%;
+}
+.sidebar-content-30 {
+  width: 30%;
+}
+
+.region-sidebar-second {
+  padding: 0px 40px;
+}
+
 /*single article pic & caption*/
+
 figure {
   margin: 0px;
 }
@@ -66,3 +88,23 @@ figure {
   width: 100%;
   height: 100%;
 }
+
+/*sidebar*/
+
+.region-sidebar-second .item-list ul li {
+  text-align: left;
+}
+
+.region-sidebar-second .item-list ul li {
+  list-style-type: square;
+  border-bottom: 1px solid $mainColor;
+  padding: 8px 0;
+}
+
+.region-sidebar-second .item-list ul li a {
+  color: $mainColor;
+}
+
+/*.region-sidebar-second .item-list ul li:last-child {
+  border: none;
+}*/

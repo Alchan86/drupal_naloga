@@ -11,3 +11,10 @@ $(window).on("scroll", function() {
     );
   }
 });
+
+$(document).ready(function() {
+  if (window.location.href.indexOf("news") >= 0) {
+    $(".layout-content").addClass("post-content-70");
+    $(".layout-sidebar-second").addClass("sidebar-content-30");
+  }
+});

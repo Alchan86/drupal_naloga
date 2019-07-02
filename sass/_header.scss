@@ -38,11 +38,13 @@ nav.block-menu.menu--main {
   z-index: 1;
   opacity: 1;
   padding-top: 35px;
+  padding-right: 10%;
 }
 nav.block-menu.menu--main.sticky {
   background: rgba(0, 0, 0, 0.37);
   height: 80px;
-  padding: 15px 50px;
+  padding-right: 10%;
+  padding-top: 15px;
 }
 
 ul.menu {
@@ -53,7 +55,7 @@ ul.menu {
 
 ul.menu li {
   float: left;
-  padding: 10px 100px 10px 0px;
+  padding: 10px 0px 10px 100px;
   text-transform: uppercase;
 }
 
